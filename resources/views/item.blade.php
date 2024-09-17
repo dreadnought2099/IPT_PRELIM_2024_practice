@@ -10,7 +10,7 @@
         <div class="row">
             <div class="col-md-4">
                 <div class="card">
-                    <img src="item1.jpg" class="card-img-top" alt="Item 1">
+                    <img src={{asset('images/pastel.jpg') }} class="card-img-top" alt="Item 1">
                     <div class="card-body">
                         <p class="card-text">Item 1 Description</p>
                     </div>
