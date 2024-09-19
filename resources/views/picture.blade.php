@@ -15,7 +15,7 @@
         <h1>Picture Page</h1>
         <nav class="mb-4">
             <a href="{{ route('home.page') }}">Home Page</a> |
-            <a href="{{ route('item.page') }}">Item Page</a> |
+            <a href="{{ route('item.page') }}">Item Page</a> |  
             <a>Picture Page</a>
         </nav>
         <div class="row">
