@@ -7,6 +7,11 @@
 <body>
     <div class="container mt-4">
         <h1>Item Page</h1>
+        <nav>
+            <a href="{{ route('home.page') }}">Home Page</a> |
+            <a>Item Page</a> |
+            <a href="{{ route('picture.page') }}">Picture Page</a>
+        </nav>
         <div class="row">
             <div class="col-md-4 mb-4 mr-2">
                 <div class="card">
