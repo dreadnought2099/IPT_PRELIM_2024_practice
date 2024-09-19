@@ -3,6 +3,12 @@
 <head>
     <title>Picture Page</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        .card-img-top {
+            height: 430px; /* Set a fixed height */
+            object-fit: cover; /* Maintain aspect ratio and cover the area */
+        }
+    </style>
 </head>
 <body>
     <div class="container mt-4">
@@ -19,7 +25,7 @@
             <div class="col-md-4 mb-4">
                 <div class="card">
                     <img src={{asset('images/retouch_2024050619105728.jpg') }} class="card-img-top" alt="Picture 2">
-                    <div class="card-body">
+                    <div class="card-body ">
                         <p class="card-text">Description for Picture 2</p>
                     </div>
                 </div>
