@@ -13,6 +13,11 @@
 <body>
     <div class="container mt-4">
         <h1>Picture Page</h1>
+        <nav>
+            <a href="{{ route('home.page') }}">Home Page</a> |
+            <a href="{{ route('item.page') }}">Item Page</a> |
+            <a>Picture Page</a>
+        </nav>
         <div class="row">
             <div class="col-md-4 mb-4">
                 <div class="card">
