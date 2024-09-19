@@ -7,7 +7,7 @@
 <body>
     <div class="container mt-4">
         <h1>Item Page</h1>
-        <nav>
+        <nav class="mb-4">
             <a href="{{ route('home.page') }}">Home Page</a> |
             <a>Item Page</a> |
             <a href="{{ route('picture.page') }}">Picture Page</a>

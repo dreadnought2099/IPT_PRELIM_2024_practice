@@ -5,7 +5,7 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
     <style>
         .card-img-top {
-            height: 430px; /* Set a fixed height */
+            height: 470px; /* Set a fixed height */
             object-fit: cover; /* Maintain aspect ratio and cover the area */
         }
     </style>
@@ -13,7 +13,7 @@
 <body>
     <div class="container mt-4">
         <h1>Picture Page</h1>
-        <nav>
+        <nav class="mb-4">
             <a href="{{ route('home.page') }}">Home Page</a> |
             <a href="{{ route('item.page') }}">Item Page</a> |
             <a>Picture Page</a>
